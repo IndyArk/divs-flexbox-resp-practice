@@ -97,35 +97,71 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #000;
   height: 100%;
 }
 
 body {
+  background: url(../img/astro-fire-tengyart-Q78W18T-dss-unsplash.jpeg) repeat center center fixed;
+  background-size: cover;
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
+  font-size: 0.85em;
   height: 100%;
 }
 
+.header {
+        color: #fff;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #content {
+        /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
+        background: #222;
+        background:rgba(0,0,1,0.7);
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 200;
+        font-size: 1.25em;
+        line-height: 1.5em;
+        border-radius: 10px;
+        width: 100%;
+        height: 80%;
+      }
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  font-weight: 400;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 30px;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  align-items: center;
+  align-items: baseline;
   color: #fff;
   display: flex;
   line-height: 1.5em;
   justify-content: center;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1.2em;
+  height: 240px;
   width: 30%;
+  padding: 0 30px;
+}
+
+.div-2 {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
 
 
